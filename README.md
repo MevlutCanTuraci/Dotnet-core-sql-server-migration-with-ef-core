@@ -12,3 +12,9 @@
 
 ## Company Users Table With Migration Created;
 ![image](https://user-images.githubusercontent.com/53406778/215103637-ff5c5614-89bc-4236-9473-446fd34e8a07.png)
+
+
+
+1 --> Microsoft.EntityFrameworkCore
+2 --> Microsoft.EntityFrameworkCore.SqlServer
+* 3 --> Microsoft.EntityFrameworkCore.Tools
