@@ -1,0 +1,58 @@
+Offical web site : https://www.entityframeworktutorial.net/efcore/entity-framework-core-migration.aspx
+
+
+Adding a Migration
+
+	Package Manager Console	
+		 add-migration MyFirstMigration
+
+	CLI 
+		dotnet ef migrations add MyFirstMigration
+
+
+
+Creating or Updating the Database
+
+	Package Manager Console
+		Update-Database
+
+	CLI
+		dotnet ef database update
+
+
+
+Removing a Migration
+	
+	Package Manager Console
+		remove-migration
+
+
+	CLI
+		dotnet ef migrations remove	
+
+
+
+Reverting a Migration
+
+	Package Manager Console
+		Update-database MyFirstMigration
+
+
+	CLI
+		dotnet ef database update MyFirstMigration.
+
+
+
+Generating a SQL Script
+
+	Package Manager Console
+		script-migration
+
+
+
+	CLI
+		dotnet ef migrations script
+
+
+
+
