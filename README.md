@@ -20,4 +20,6 @@
 * Microsoft.EntityFrameworkCore.Tools
 * Microsoft.EntityFrameworkCore
 * Microsoft.EntityFrameworkCore.SqlServer
+* Microsoft.EntityFrameworkCore.Design (Just add it to your web api or web project)
+
 
